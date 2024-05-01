@@ -13,14 +13,12 @@ Beldi Food is more than just a restaurant; it's a culinary journey through the r
 - Browse our diverse menu
 - Make reservations online
 - Explore our special events and offers
-- Get directions to our restaurant location
 
 ## Technologies Used
 
 - HTML
 - CSS
 - JavaScript
-- Bootstrap (for responsive design)
 - React JS
 
 ## Deployment
