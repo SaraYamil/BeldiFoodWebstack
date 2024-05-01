@@ -25,7 +25,7 @@ Beldi Food is more than just a restaurant; it's a culinary journey through the r
 
 ## Deployment
 
-Experience Beldi Food: [[Beldi Food](https://fatimaezzahralah.github.io/BeldiFood/index.html)
+Experience Beldi Food: [[Beldi Food](https://sarayamil.github.io/BeldiFoodWebstack/)
 
 ## Authors
 
@@ -42,5 +42,8 @@ No installation required! Simply visit our website to explore our menu and make 
 
 <img width="946" alt="image" src="https://github.com/Fatimaezzahralah/BeldiFood/assets/128908115/517f19d7-33e4-42ef-a3bc-acd6c345c323">
 
-<img width="856" alt="image" src="https://github.com/Fatimaezzahralah/BeldiFood/assets/128908115/936484c4-4ce6-4b58-bb07-b4497632b1c0">
+<img width="899" alt="image" src="https://github.com/SaraYamil/BeldiFoodWebstack/assets/128908115/bba01068-2761-40b5-888a-c7333048421a">
+
+<img width="899" alt="image" src="https://github.com/SaraYamil/BeldiFoodWebstack/assets/128908115/b6109400-c746-45a5-a7e2-87c3cfa5014d">
+
 
