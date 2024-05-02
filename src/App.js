@@ -7,6 +7,7 @@ import Update from './pages/update';
 import Header from './pages/header';
 import Footer from './pages/footer';
 import Story from './pages/story';
+import Booking from './pages/booking';
 
 
 
@@ -25,6 +26,7 @@ function App() {
         <Route exact path="/menu" element={<Menu />} />
         <Route exact path="/update" element={<Update />} />
         <Route exact path="/contact" element={<Contact />} />
+       <Route exact path="/booking" element={<Booking />} />
       
        
       </Routes> 
