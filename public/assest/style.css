@@ -855,7 +855,6 @@ html {
   
   form {
     padding: 37.5px;
-    margin: 50px 0;
   }
   
 
@@ -1022,30 +1021,20 @@ html {
 Form of reservation
 -------------------------------------------------*/
 }
-.banner{
-    min-height: 100vh;
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("assest/images/bgres.jpg") center/cover no-repeat;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    color: #fff;
-    padding-bottom: 20px;
-}
+
 .card-container{
     display: grid;
     grid-template-columns: 420px 420px;
-}
-.card-img{
-    background: url("card-img.jpg") center/cover no-repeat;
 }
 .banner h2{
     padding-bottom: 40px;
     margin-bottom: 20px;
 }
 .card-content{
+    margin-left: -100px;
+    width: 500px;
     background: #fff;
-    height: 330px;
+    height: 430px;
 }
 .card-content h3{
     text-align: center;
@@ -1056,8 +1045,8 @@ Form of reservation
 }
 .form-row{
     display: flex;
-    width: 90%;
-    margin: 0 auto;
+    width: 100%;
+    margin:     25px auto;
 }
 form select, form input{
     display: block;
@@ -1076,7 +1065,7 @@ form input[type = text], form input[type = number], form input::placeholder, sel
 }
 form input[type = submit]{
     color: #fff;
-    background: #f2745f;
+    background: #000000;
     padding: 12px 0;
     border-radius: 4px;
     cursor: pointer;
