@@ -2,50 +2,50 @@ import React from 'react'
 
 export default function Update() {
   return (
-    <div>    <section class="updates-header">
+    <div>    <section className="updates-header">
     <div>
         <h1>News & Events</h1>
         <h2>Our latest updates, news and events</h2>
     </div>
 </section>
 
-<section class="news">
-    <h1 class="title">News & Events</h1>
-    <div class="content">
-        <div class="news-card">
-            <div class="news-image">
+<section className="news">
+    <h1 className="title">News & Events</h1>
+    <div className="content">
+        <div className="news-card">
+            <div className="news-image">
                 <img src="assest/images/news/evnt1.jpg" />
             </div>
-            <div class="news-info">
-                <p class="news-category">Chef's Recipe</p>
-                <strong class="news-title">
+            <div className="news-info">
+                <p className="news-category">Chef's Recipe</p>
+                <strong className="news-title">
                     <span>Bissara perfection tip: Flavor with finesse.</span>
                 </strong>
-                <a href="contact" class="more-details">More details</a>
+                <a href="contact" className="more-details">More details</a>
             </div>
         </div>
-        <div class="news-card">
-            <div class="news-image">
+        <div className="news-card">
+            <div className="news-image">
                 <img src="assest/images/news/event2.jpg" />
             </div>
-            <div class="news-info">
-                <p class="news-category">News</p>
-                <strong class="news-title">
+            <div className="news-info">
+                <p className="news-category">News</p>
+                <strong className="news-title">
                     <span>Varied Ftour Ramadan buffet at only 249dh.</span>
                 </strong>
-                <a href="contact" class="more-details">More details</a>
+                <a href="contact" className="more-details">More details</a>
             </div>
         </div>
-        <div class="news-card">
-            <div class="news-image">
+        <div className="news-card">
+            <div className="news-image">
                 <img src="assest/images/news/event3.jpg" />
             </div>
-            <div class="news-info">
-                <p class="news-category">Events</p>
-                <strong class="news-title">
+            <div className="news-info">
+                <p className="news-category">Events</p>
+                <strong className="news-title">
                     <span>Birthday with a Moroccan touch</span>
                 </strong>
-                <a href="contact" class="more-details">More details</a>
+                <a href="contact" className="more-details">More details</a>
             </div>
         </div>
     </div>
