@@ -9,8 +9,9 @@ export default function Header() {
         <a href="story" className="story-link">Story</a>
         <a href="menu"className="menu-link">Menu</a>
         <a href="update" className="updates-link">Our Updates</a>
+        <a href="contact" className="updates-link">Contact</a>
     </nav>
-        <a href="contact" className="booking-btn">Reservation</a>
+        <a href="booking" className="booking-btn">Reservation</a>
 </header>
   )
 }
