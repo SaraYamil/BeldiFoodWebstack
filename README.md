@@ -13,6 +13,7 @@ Beldi Food is more than just a restaurant; it's a culinary journey through the r
 - Browse our diverse menu
 - Make reservations online
 - Explore our special events and offers
+- View food details e.g cook, etc
 
 ## Technologies Used
 
@@ -20,15 +21,14 @@ Beldi Food is more than just a restaurant; it's a culinary journey through the r
 - CSS
 - JavaScript
 - React JS
+- Bootstarp
+- Api 
 
 ## Deployment
 
 Experience Beldi Food: [[Beldi Food](https://sarayamil.github.io/BeldiFoodWebstack/)
 
 ## Authors
-
-- **Fatima Ezzahra Lahnine**
-  - LinkedIn: [Fatima Ezzahra Lahnine](https://www.linkedin.com/in/fatima-ezzahra-lahnine)
 - **Sara Yamil**
   - LinkedIn: [Sara Yamil](https://www.linkedin.com/in/sarayamil)
 
