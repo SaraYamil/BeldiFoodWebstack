@@ -8,6 +8,7 @@ import News from './pages/news';
 import Header from './pages/header';
 import Footer from './pages/footer';
 import Module from './pages/module';
+import View from './pages/view';
 
 
 
@@ -26,6 +27,7 @@ function App() {
         <Route exact path="/menu" element={<Menu />} />
         <Route exact path="/news" element={<News />} />
         <Route exact path="/contact" element={<Contact />} />
+        <Route exact path="/view" element={<View />} />
       </Routes>
       <Footer/>   
       <Module/>
