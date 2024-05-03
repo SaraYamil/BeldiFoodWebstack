@@ -42,6 +42,9 @@ function Menu(){
                             <h6 className="reviews-text mb-0 me-3">4.4/5</h6>
 
                             <i><img src="assets/images/stars.png" alt=""/></i>
+          <a href="dtl" target="_blank" rel="noopener noreferrer">
+        <button type="button" className="custom-btn btn btn-danger">View Details</button>
+      </a>
 
                         </div>
                     </div>
