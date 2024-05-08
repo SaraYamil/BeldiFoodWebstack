@@ -2,10 +2,11 @@ import { useState, useEffect, useMemo } from "react";
 import { createClient } from "@supabase/supabase-js";
 import ViewContext from "./ViewContext";
 import { useParams } from "react-router-dom";
+import {SUPABASE_URL, SUPABASE_KEY} from "./const"
 
 const supabase = createClient(
-  process.env.SUPABASE_URL,
-  process.env.SUPABASE_KEY
+  SUPABASE_URL,
+  SUPABASE_KEY
 );
 
 export default function ViewProvider({ children }) {
