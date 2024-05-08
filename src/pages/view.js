@@ -1,11 +1,28 @@
-import React from "react";
+import React, { useContext } from "react";
+import { useParams } from "react-router-dom";
+import ViewContext from "../ViewContext.jsx";
 
-export default function View() {
+function View() {
+  const { id } = useParams();
+  const { selectedFood, loading, error } = useContext(ViewContext);
+
+  if (loading) {
+    return <div>Loading...</div>;
+  }
+
+  if (error) {
+    return <div>Error: {error}</div>;
+  }
+
+  if (!selectedFood) {
+    return <div>Food not found!</div>;
+  }
+
   return (
     <div>
       <div id="container">
         <div className="product-details">
-          <h1>Sfenj Donuts </h1>
+          <h1>{selectedFood.name} </h1>
 
           <span className="hint-star star">
             <i className="fa fa-star" aria-hidden="true"></i>
@@ -15,29 +32,24 @@ export default function View() {
             <i className="fa fa-star-o" aria-hidden="true"></i>
           </span>
 
-          <p className="information">
-            " Moroccan delicacy, are deep-fried treats known for their fluffy
-            texture and irresistible sweetness. Made simple yeast dough, these
-            doughnuts are typically coated in sugar or dipped in honey, making
-            them a delightful indulgence enjoyed across Morocco.. "
-          </p>
+          <p className="information">{selectedFood.Discription}</p>
+          <button type="button" className="custom-btn btn btn-danger">
+            {selectedFood.price}
+          </button>
 
-          <div className="control">
-            <button
-              type="button"
-              className="custom-btn btn btn-danger"
-              data-bs-toggle="modal"
-              data-bs-target="#BookingModal"
-            >
-              Reservation
+          {/* <div className="control">
+            <button type="button" className="custom-btn btn btn-danger">
+              {selectedFood.price}
             </button>
-          </div>
+          </div> */}
         </div>
 
         <div className="product-image">
-          <img src="assets/images/breakfast/bk2.jpg" alt="" />
+          <img src={`../${selectedFood.image}`} />
         </div>
       </div>
     </div>
   );
 }
+
+export default View;
