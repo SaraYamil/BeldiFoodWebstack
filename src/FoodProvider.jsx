@@ -1,10 +1,10 @@
 import { useState, useEffect, useMemo } from "react";
 import { createClient } from "@supabase/supabase-js";
 import FoodContext from "./FoodContext";
-
+import {SUPABASE_URL, SUPABASE_KEY} from "./const"
 const supabase = createClient(
-  process.env.SUPABASE_URL,
-  process.env.SUPABASE_KEY
+  SUPABASE_URL,
+  SUPABASE_KEY
 );
 
 export default function FoodProvider({ children }) {
