@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/BeldiFoodWebstack/static/css/main.f855e6bc.css",
+    "main.js": "/BeldiFoodWebstack/static/js/main.311b73f9.js",
+    "static/js/952.bfad7692.chunk.js": "/BeldiFoodWebstack/static/js/952.bfad7692.chunk.js",
+    "static/js/453.5783c3fe.chunk.js": "/BeldiFoodWebstack/static/js/453.5783c3fe.chunk.js",
+    "index.html": "/BeldiFoodWebstack/index.html",
+    "main.f855e6bc.css.map": "/BeldiFoodWebstack/static/css/main.f855e6bc.css.map",
+    "main.311b73f9.js.map": "/BeldiFoodWebstack/static/js/main.311b73f9.js.map",
+    "952.bfad7692.chunk.js.map": "/BeldiFoodWebstack/static/js/952.bfad7692.chunk.js.map",
+    "453.5783c3fe.chunk.js.map": "/BeldiFoodWebstack/static/js/453.5783c3fe.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f855e6bc.css",
+    "static/js/main.311b73f9.js"
+  ]
+}
