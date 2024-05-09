@@ -130,7 +130,7 @@ export default function Module() {
                       id="phone"
                       value={dataa.phone}
                       className="form-control"
-                      placeholder="Your Email"
+                      placeholder="Your Phone"
                       onChange={(e) =>
                         setDataa({ ...dataa, phone: e.target.value })
                       }
