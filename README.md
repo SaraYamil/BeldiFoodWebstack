@@ -13,6 +13,7 @@ Beldi Food is more than just a restaurant; it's a culinary journey through the r
 - Browse our diverse menu
 - Make reservations online
 - Explore our special events and offers
+- View details of dishes and see the recips of any food you want
 
 ## Technologies Used
 
@@ -26,9 +27,6 @@ Beldi Food is more than just a restaurant; it's a culinary journey through the r
 Experience Beldi Food: ![2](https://github.com/SaraYamil/BeldiFoodWebstack/assets/43785364/2a766c9f-ac7d-41ae-bc01-ef95244632b1)
 
 ## Authors
-
-- **Fatima Ezzahra Lahnine**
-  - LinkedIn: [Fatima Ezzahra Lahnine](https://www.linkedin.com/in/fatima-ezzahra-lahnine)
 - **Sara Yamil**
   - LinkedIn: [Sara Yamil](https://www.linkedin.com/in/sarayamil)
 
