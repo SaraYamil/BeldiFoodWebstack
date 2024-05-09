@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import {SUPABASE_URL, SUPABASE_KEY} from "../const"
 import { createClient } from "@supabase/supabase-js";
-
+import { useNavigate } from "react-router-dom";
 const supabase = createClient(
   SUPABASE_URL,
   SUPABASE_KEY
@@ -17,13 +17,21 @@ export default function Module() {
     time: "",
   });
 
-  const addData = async () => {
+  const navigate=useNavigate();
+
+  const addData = async (e) => {
+    e.preventDefault();
     try {
       const { data, error } = await supabase
         .from("Booking")
         .insert([dataa])
         .select();
       console.log(data);
+      if(data){
+        navigate('/resrv')
+        
+      }
+
     } catch (error) {
       console.log(error);
     }
@@ -31,7 +39,7 @@ export default function Module() {
 
   // useEffect(() => {
   //   console.log(dataa.fname);
-  // }, [dataa]);
+  // }, [dataa]);  ok wait 1min SAFE THANKS 
   return (
     <div>
       {" "}
@@ -60,8 +68,7 @@ export default function Module() {
                 <form
                   className="booking-form row"
                   role="form"
-                  action="#"
-                  method="post"
+              onSubmit={addData}
                 >
                   <div className="col-lg-6 col-12">
                     <label for="name" className="form-label">
@@ -221,7 +228,7 @@ export default function Module() {
 
                   <div className="col-lg-4 col-12 ms-auto">
                     <button
-                      onClick={addData}
+                      // onClick={addData}
                       type="submit"
                       className="form-control"
                     >
