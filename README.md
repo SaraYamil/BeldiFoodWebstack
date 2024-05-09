@@ -20,7 +20,9 @@ Beldi Food is more than just a restaurant; it's a culinary journey through the r
 - HTML
 - CSS
 - JavaScript
+- Bootstrap
 - React JS
+- API
 
 ## Deployment
 
