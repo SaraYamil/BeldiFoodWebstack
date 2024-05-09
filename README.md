@@ -2,7 +2,7 @@
 
 Welcome to Beldi Food, your ultimate destination for authentic Moroccan cuisine!
 
-<img width="904" alt="image" src="https://github.com/Fatimaezzahralah/BeldiFood/assets/128908115/da02fc5d-ffd4-4d9c-9cdc-9b6b66198000">
+![1](https://github.com/SaraYamil/BeldiFoodWebstack/assets/43785364/90878c88-4b9b-432e-9f0e-8e47868fbb11)
 
 ## Introduction
 
@@ -23,7 +23,7 @@ Beldi Food is more than just a restaurant; it's a culinary journey through the r
 
 ## Deployment
 
-Experience Beldi Food: [[Beldi Food](https://sarayamil.github.io/BeldiFoodWebstack/)
+Experience Beldi Food: ![2](https://github.com/SaraYamil/BeldiFoodWebstack/assets/43785364/2a766c9f-ac7d-41ae-bc01-ef95244632b1)
 
 ## Authors
 
