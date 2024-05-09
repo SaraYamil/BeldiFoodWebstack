@@ -39,8 +39,7 @@ No installation required! Simply visit our website to explore our menu and make 
 ## Screenshots
 
 <img width="946" alt="image" src="https://github.com/Fatimaezzahralah/BeldiFood/assets/128908115/517f19d7-33e4-42ef-a3bc-acd6c345c323">
-
-<img width="899" alt="image" src="https://github.com/SaraYamil/BeldiFoodWebstack/assets/128908115/bba01068-2761-40b5-888a-c7333048421a">
+<img width="941" alt="3" src="https://github.com/SaraYamil/BeldiFoodWebstack/assets/43785364/b2d6a1ae-c71b-4998-82cf-f53586193efa">
 
 <img width="899" alt="image" src="https://github.com/SaraYamil/BeldiFoodWebstack/assets/128908115/b6109400-c746-45a5-a7e2-87c3cfa5014d">
 
