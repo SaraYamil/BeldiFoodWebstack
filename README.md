@@ -24,7 +24,7 @@ Beldi Food is more than just a restaurant; it's a culinary journey through the r
 
 ## Deployment
 
-Experience Beldi Food: ![2](https://github.com/SaraYamil/BeldiFoodWebstack/assets/43785364/2a766c9f-ac7d-41ae-bc01-ef95244632b1)
+Experience Beldi Food:[ ![2](https://github.com/SaraYamil/BeldiFoodWebstack/assets/43785364/2a766c9f-ac7d-41ae-bc01-ef95244632b1)](https://beldi-food-webstack.vercel.app/)
 
 ## Authors
 - **Sara Yamil**
